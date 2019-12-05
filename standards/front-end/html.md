@@ -100,19 +100,19 @@ Don't rely on markup for visual formatting. (e.g. `<br>`, `<b>`, `<i>`).
 ```html
 <!-- bad -->
 <p>
-  How much a dollar <i><b>really</b></i> cost?
+  This code is using <i><b>markup</b></i> for formatting.
   <br>
   <br>
   <br>
-  The question is detrimental, paralyzin' my thoughts
+  This shouldn't be done!
 </p>
 
 <!-- good -->
 <p>
-  How much a dollar <em>really</em> cost?
+  This code is not using <em>markup</em> for formatting.
 </p>
 <p>
-  The question is detrimental, paralyzin' my thoughts
+  This is how you do it!
 </p>
 ```
 
