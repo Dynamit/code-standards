@@ -1,0 +1,24 @@
+{
+  "name": "code-standards",
+  "version": "1.0.0",
+  "description": "Dynamit's coding standards and style guides",
+  "main": "README.md",
+  "scripts": {
+    "clean": "rimraf _book",
+    "prepare": "gitbook install",
+    "build": "npm run prepare && gitbook build",
+    "serve": "npm run prepare && gitbook serve",
+    "publish": "npm run clean && npm run build && cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@nicholaslyon-dt:dynamit/code-standards gh-pages --force"
+  },
+  "author": "Dynamit",
+  "license": "MIT",
+  "devDependencies": {
+    "gitbook-cli": "^2.1.3",
+    "rimraf": "^2.5.2"
+  },
+  "dependencies": {
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-prism": "^2.4.0"
+  }
+}

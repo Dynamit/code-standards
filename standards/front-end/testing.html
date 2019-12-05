@@ -1,0 +1,935 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Unit Testing · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="vue.html" />
+    
+    
+    <link rel="prev" href="react.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Table of Contents</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Front-end
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="html.html">
+            
+                <a href="html.html">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="stylesheets.html">
+            
+                <a href="stylesheets.html">
+            
+                    
+                    Stylesheets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="javascript.html">
+            
+                <a href="javascript.html">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="accessibility.html">
+            
+                <a href="accessibility.html">
+            
+                    
+                    Accessibility
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="react.html">
+            
+                <a href="react.html">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="react.html">
+            
+                <a href="react.html#getting-started">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1.1" data-path="react.html">
+            
+                <a href="react.html#install-via-create-react-app">
+            
+                    
+                    Install via create-react-app
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.1.2" data-path="react.html">
+            
+                <a href="react.html#choosing-the-correct-version">
+            
+                    
+                    Choosing the correct version
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.2" data-path="react.html">
+            
+                <a href="react.html#code-formatting">
+            
+                    
+                    Code Formatting
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.2.1" data-path="react.html">
+            
+                <a href="react.html#prettier-and-eslint-configuration">
+            
+                    
+                    Prettier and ESLint Configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3" data-path="react.html">
+            
+                <a href="react.html#components">
+            
+                    
+                    Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.3.1" data-path="react.html">
+            
+                <a href="react.html#naming-components">
+            
+                    
+                    Naming Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3.2" data-path="react.html">
+            
+                <a href="react.html#functional-components">
+            
+                    
+                    Functional Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3.3" data-path="react.html">
+            
+                <a href="react.html#class-components">
+            
+                    
+                    Class Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.3.3.1" data-path="react.html">
+            
+                <a href="react.html#default-state-and-props">
+            
+                    
+                    Default State and Props
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3.3.2" data-path="react.html">
+            
+                <a href="react.html#destructure-in-your-render-method">
+            
+                    
+                    Destructure in your Render Method
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.4" data-path="react.html">
+            
+                <a href="react.html#routing">
+            
+                    
+                    Routing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.5" data-path="react.html">
+            
+                <a href="react.html#managing-state">
+            
+                    
+                    Managing State
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="testing.html">
+            
+                <a href="testing.html">
+            
+                    
+                    Unit Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="vue.html">
+            
+                <a href="vue.html">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="wordpress.html">
+            
+                <a href="wordpress.html">
+            
+                    
+                    WordPress
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="gulp.html">
+            
+                <a href="gulp.html">
+            
+                    
+                    Gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="webpack.html">
+            
+                <a href="webpack.html">
+            
+                    
+                    Webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../back-end/">
+            
+                <a href="../back-end/">
+            
+                    
+                    Back-end
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../back-end/php.html">
+            
+                <a href="../back-end/php.html">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../mobile/">
+            
+                <a href="../mobile/">
+            
+                    
+                    Mobile
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../mobile/java.html">
+            
+                <a href="../mobile/java.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../mobile/objc.html">
+            
+                <a href="../mobile/objc.html">
+            
+                    
+                    Objective-C
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Unit Testing</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="unit-testing">Unit Testing</h1>
+<p>The goal of this document is to help get someone set up and running JavaScript unit tests or end to end tests (depending on the needs of the project) quickly and to provide a reference for hard/unanswered questions and gaps in official documentation. </p>
+<p>Paired with the official documentation for each technology, this guide should help fill in the blanks on how to get started painlessly. Please update and contribute as needed, as every project has different needs and quirks!</p>
+<h2 id="jasmine--karma">Jasmine &amp; Karma</h2>
+<p>The goal of this section is to help someone get set up using Jasmine unit tests with Karma as a test runner in less than 3 days. Follow this guide to get Jasmine and Karma set up on your project.</p>
+<h3 id="jasmine">Jasmine</h3>
+<p>FAQ/things they don&#x2019;t tell you in the documentation:</p>
+<ul>
+<li>Import your functions/components that you&#x2019;re testing -- this is pretty basic, but you can&#x2019;t test the function/component without importing it into your test file</li>
+<li>If you get errors and you don&#x2019;t know why, you probably need to bundle your files:<ul>
+<li>You can use <a href="https://github.com/webpack-contrib/karma-webpack" target="_blank">karma-webpack</a> if you&#x2019;re using Karma...and Webpack</li>
+<li>You do need webpack configuration if you go that route</li>
+</ul>
+</li>
+</ul>
+<p>--</p>
+<p><strong>Step 1.</strong> Getting Started with Jasmine (from their docs)</p>
+<p>Add Jasmine to your project:</p>
+<p><code>npm install --save-dev jasmine</code></p>
+<p>Initialize Jasmine:</p>
+<p><code>node node_modules/jasmine/bin/jasmine init</code> (or simply <code>npx jasmine init</code> for npm version 5.2.0 or later)</p>
+<p>Set jasmine as your test script in your package.json:</p>
+<p><code>&quot;scripts&quot;: { &quot;test&quot;: &quot;jasmine&quot; }</code></p>
+<p>Thinking ahead, you may also want to do something like this in your package.json file if you&#x2019;re using Karma:</p>
+<p><code>&quot;test&quot;: &quot;karma start karma.conf.js&quot;</code></p>
+<p>^ this way, when you run <code>npm test</code> in the command line, Karma starts running/watching your tests for you!</p>
+<p>-- </p>
+<p><strong>Step 2.</strong> Writing a test in Jasmine</p>
+<p>This is what Jasmine shows in their docs:</p>
+<pre class="language-"><code class="lang-javascript"><span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">&quot;A suite&quot;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&quot;contains spec with an expectation&quot;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p><strong>Describe</strong>: this is for grouping related specs. Typically, each test file has one at the top of the file, and includes multiple <code>its</code>. Describe can contain any executable JS code needed.</p>
+<p><strong>A suite</strong>: naming the collection of specs in your test file, this is just plain English, not code. These should read as full sentences in traditional Behavior Driven Development (BDD) style.</p>
+<p><strong>It</strong>: this is a global Jasmine function. Its can also contain executable JS, scoped inside of the it function.</p>
+<p><strong>contains spec with an expectation</strong>: this is the title of the spec, this is also plain English and not code. Be descriptive. Did I mention unit tests also serve as documentation and are a great way of describing what a function or component is trying to do?</p>
+<p><strong>expect(true).toBe(true);</strong>: this is an assertion that is either true or false. True tests pass, false tests fail.</p>
+<p>Other examples of assertions in Jasmine:</p>
+<pre class="language-"><code class="lang-javascript"><span class="token function">expect</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">.</span>not<span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">expect</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>foo<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">expect</span><span class="token punctuation">(</span>foo<span class="token punctuation">.</span>setBar<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toHaveBeenCalled</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">(</span>when using a &#x201C;spy&#x201D;<span class="token punctuation">)</span>
+<span class="token function">expect</span><span class="token punctuation">(</span>bar<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeNull</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">expect</span><span class="token punctuation">(</span>foo<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeDefined</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>--</p>
+<p><strong>Step 3.</strong> Set up a test runner (let&#x2019;s use Karma)</p>
+<p>Add Karma to your project:</p>
+<p><code>npm install karma --save-dev</code></p>
+<p>The Karma docs also say to install other plugins your project needs. Do this carefully:</p>
+<p><code>npm install karma-jasmine karma-chrome-launcher jasmine-core --save-dev</code></p>
+<p>^ because you might not end up using the chrome launcher. Maybe you&#x2019;ll use <a href="https://www.npmjs.com/package/karma-phantomjs-launcher" target="_blank">PhantomJS</a> as a launcher instead. Do some research to see what will work best for you. </p>
+<p>Run Karma:</p>
+<p><code>./node_modules/karma/bin/karma start</code></p>
+<p>--</p>
+<p><strong>Step 4</strong> Karma configuration</p>
+<p>The easiest way to generate an initial configuration file is by using the <code>karma init</code> command. This will generate a configuration file for you.</p>
+<p>Example configuration file with comments:</p>
+<pre class="language-"><code class="lang-javascript"><span class="token comment">// Karma configuration</span>
+<span class="token comment">// Generated on Wed Sep 05 2018 13:50:10 GMT-0400 (EDT)</span>
+<span class="token comment">// When you install Karma and run &#x2018;Karma init&#x2019;, a config file will be generated for you</span>
+
+module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>config<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+ config<span class="token punctuation">.</span><span class="token keyword">set</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+
+   <span class="token comment">// base path that will be used to resolve all patterns (eg. files, exclude)</span>
+   basePath<span class="token punctuation">:</span> <span class="token string">&apos;&apos;</span><span class="token punctuation">,</span>
+
+   <span class="token comment">// frameworks to use</span>
+   <span class="token comment">// available frameworks: https://npmjs.org/browse/keyword/karma-adapter</span>
+   frameworks<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&apos;jasmine&apos;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+   <span class="token comment">// list of files / patterns to load in the browser</span>
+   <span class="token comment">// this part is confusing, some docs say to specify dist and spec files, but we&#x2019;re just specifying spec/test files here based on what we saw in another webpack/karma config example</span>
+   files<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&apos;spec/*.spec.js&apos;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+   <span class="token comment">// list of files / patterns to exclude</span>
+   exclude<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+   <span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+   <span class="token operator">/</span><span class="token operator">/</span> <span class="token keyword">if</span> you install<span class="token operator">/</span>use plugins<span class="token punctuation">,</span> make sure to put them here or you&#x2019;ll <span class="token keyword">get</span> some command line errors that will tell you to put them here
+   plugins<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+     <span class="token string">&apos;karma-phantomjs-launcher&apos;</span><span class="token punctuation">,</span>
+     <span class="token string">&apos;karma-jasmine&apos;</span><span class="token punctuation">,</span>
+     <span class="token string">&apos;karma-webpack&apos;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+   <span class="token operator">/</span><span class="token operator">/</span> preprocess matching files before serving them to the browser
+   <span class="token operator">/</span><span class="token operator">/</span> available preprocessors<span class="token punctuation">:</span> https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>npmjs<span class="token punctuation">.</span>org<span class="token operator">/</span>browse<span class="token operator">/</span>keyword<span class="token operator">/</span>karma<span class="token operator">-</span>preprocessor
+   preprocessors<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+     <span class="token string">&apos;spec/*.spec.js&apos;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&apos;webpack&apos;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+   <span class="token comment">// test results reporter to use</span>
+   <span class="token operator">/</span><span class="token operator">/</span> possible values<span class="token punctuation">:</span> <span class="token string">&apos;dots&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;progress&apos;</span>
+   <span class="token operator">/</span><span class="token operator">/</span> available reporters<span class="token punctuation">:</span> https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>npmjs<span class="token punctuation">.</span>org<span class="token operator">/</span>browse<span class="token operator">/</span>keyword<span class="token operator">/</span>karma<span class="token operator">-</span>reporter
+   reporters<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&apos;progress&apos;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+   <span class="token operator">/</span><span class="token operator">/</span> web server port
+   port<span class="token punctuation">:</span> <span class="token number">9876</span><span class="token punctuation">,</span>
+
+   <span class="token operator">/</span><span class="token operator">/</span> enable <span class="token operator">/</span> disable colors <span class="token keyword">in</span> the <span class="token function">output</span> <span class="token punctuation">(</span>reporters and logs<span class="token punctuation">)</span>
+   colors<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+   <span class="token operator">/</span><span class="token operator">/</span> level <span class="token keyword">of</span> logging
+   <span class="token operator">/</span><span class="token operator">/</span> possible values<span class="token punctuation">:</span> config<span class="token punctuation">.</span><span class="token constant">LOG_DISABLE</span> <span class="token operator">||</span> config<span class="token punctuation">.</span><span class="token constant">LOG_ERROR</span> <span class="token operator">||</span> config<span class="token punctuation">.</span><span class="token constant">LOG_WARN</span> <span class="token operator">||</span> config<span class="token punctuation">.</span><span class="token constant">LOG_INFO</span> <span class="token operator">||</span> config<span class="token punctuation">.</span><span class="token constant">LOG_DEBUG</span>
+   logLevel<span class="token punctuation">:</span> config<span class="token punctuation">.</span><span class="token constant">LOG_INFO</span><span class="token punctuation">,</span>
+
+   <span class="token operator">/</span><span class="token operator">/</span> enable <span class="token operator">/</span> disable watching file and executing tests whenever any file changes
+   autoWatch<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+   <span class="token operator">/</span><span class="token operator">/</span> start these browsers
+   <span class="token operator">/</span><span class="token operator">/</span> available browser launchers<span class="token punctuation">:</span> https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>npmjs<span class="token punctuation">.</span>org<span class="token operator">/</span>browse<span class="token operator">/</span>keyword<span class="token operator">/</span>karma<span class="token operator">-</span>launcher
+   browsers<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&apos;PhantomJS&apos;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+   <span class="token operator">/</span><span class="token operator">/</span> Continuous Integration mode
+   <span class="token operator">/</span><span class="token operator">/</span> <span class="token keyword">if</span> <span class="token boolean">true</span><span class="token punctuation">,</span> Karma captures browsers<span class="token punctuation">,</span> runs the tests and exits
+   singleRun<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+
+   <span class="token operator">/</span><span class="token operator">/</span> Concurrency level
+   <span class="token operator">/</span><span class="token operator">/</span> how many browser should be started simultaneous
+   concurrency<span class="token punctuation">:</span> <span class="token number">Infinity</span><span class="token punctuation">,</span>
+
+   webpack<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+     <span class="token operator">/</span><span class="token operator">/</span> webpack configuration
+     <span class="token operator">/</span><span class="token operator">/</span> karma watches the test entry points
+     <span class="token operator">/</span><span class="token operator">/</span> <span class="token punctuation">(</span>you don&apos;t need to specify the entry option<span class="token punctuation">)</span>
+     <span class="token operator">/</span><span class="token operator">/</span> <span class="token keyword">in</span> karma<span class="token operator">-</span>webpack&#x2019;s documentation<span class="token punctuation">,</span> there&#x2019;s nothing <span class="token keyword">in</span> <span class="token keyword">this</span> section<span class="token punctuation">.</span> But you need stuff <span class="token keyword">in</span> <span class="token keyword">this</span> section<span class="token punctuation">.</span> Below is what we&#x2019;ve taken <span class="token keyword">from</span> our webpack<span class="token punctuation">.</span>config file<span class="token punctuation">:</span>
+     module<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+       loaders<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+         <span class="token punctuation">{</span>
+           test<span class="token punctuation">:</span> <span class="token regex">/\.js$/</span><span class="token punctuation">,</span>
+           loader<span class="token punctuation">:</span> <span class="token string">&apos;babel-loader&apos;</span><span class="token punctuation">,</span>
+           exclude<span class="token punctuation">:</span> <span class="token regex">/node_modules/</span><span class="token punctuation">,</span>
+         <span class="token punctuation">}</span><span class="token punctuation">,</span>
+         <span class="token punctuation">{</span>
+           test<span class="token punctuation">:</span> <span class="token regex">/\.vue$/</span><span class="token punctuation">,</span>
+           loader<span class="token punctuation">:</span> <span class="token string">&apos;vue-loader&apos;</span><span class="token punctuation">,</span>
+         <span class="token punctuation">}</span><span class="token punctuation">,</span>
+       <span class="token punctuation">]</span><span class="token punctuation">,</span>
+     <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+ <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Code/test examples for Jasmine &amp; Karma:</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> formatBasicCurrency <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;scripts/shared/utils/misc&apos;</span><span class="token punctuation">;</span>
+
+<span class="token comment">/*
+  This is what formatBasicCurrency looks like:
+  export function formatBasicCurrency(amount) {
+    const formatted = parseFloat(amount).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, &quot;$1,&quot;);
+    return `$${formatted}`;
+  }
+*/</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">&apos;Formats currency from a number/string to a $XX.XX format&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&apos;takes a string and turns it into money&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> string <span class="token operator">=</span> <span class="token string">&apos;144.444&apos;</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> formattedString <span class="token operator">=</span> <span class="token function">formatBasicCurrency</span><span class="token punctuation">(</span>string<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>formattedString<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span><span class="token string">&apos;$144.44&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&apos;takes a decimal and turns it into money&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> dec <span class="token operator">=</span> <span class="token number">800.451234</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> formattedDec <span class="token operator">=</span> <span class="token function">formatBasicCurrency</span><span class="token punctuation">(</span>dec<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>formattedDec<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span><span class="token string">&apos;$800.45&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&apos;takes a number and turns it into money with 0s included&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> number <span class="token operator">=</span> <span class="token number">45</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> formattedNum <span class="token operator">=</span> <span class="token function">formatBasicCurrency</span><span class="token punctuation">(</span>number<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>formattedNum<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span><span class="token string">&apos;$45.00&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&apos;will not return correct money if it cannot be formatted&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> random <span class="token operator">=</span> <span class="token string">&apos;apples&apos;</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> formattedRand <span class="token operator">=</span> <span class="token function">formatBasicCurrency</span><span class="token punctuation">(</span>random<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>formattedRand<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span><span class="token string">&apos;$NaN&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="cypress">Cypress</h2>
+<p>Sometimes, even with this document, unit tests can be difficult to set up and it can be hard to know where to start. This is especially true if you&#x2019;re setting something up on an existing project. In these cases, Cypress may prove useful for unit, integration, and end-to-end testing of applications.</p>
+<p>It&#x2019;s also very easy to set up and learn in general. Big fan.</p>
+<p><strong>Step 1</strong>. Get started with <a href="https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-Requirements" target="_blank">Cypress</a></p>
+<p><code>npm install cypress --save-dev</code></p>
+<p><strong>Step 2</strong>. Running Cypress</p>
+<p><code>./node_modules/.bin/cypress open</code> (or shortcuts you can create within package.json -- [example: <code>&quot;cypress:open&quot;: &quot;cypress open&quot;</code>] and then run <code>npm run cypress:open</code>) (or simply <code>npx cypress open</code> for npm version 5.2.0 or later)</p>
+<p><strong>Step 3</strong>. Writing a Cypress test</p>
+<p>Cypress is very UI-based, which you&#x2019;ll see when you run Cypress. When writing a test, you interact with the UI of a page by visiting that page. For example, the following test goes to a page and clicks on a button:</p>
+<pre class="language-"><code class="lang-javascript"><span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">&apos;My First Test&apos;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&apos;Visits the Kitchen Sink&apos;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    cy<span class="token punctuation">.</span><span class="token function">visit</span><span class="token punctuation">(</span><span class="token string">&apos;https://example.cypress.io&apos;</span><span class="token punctuation">)</span>
+    cy<span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">&apos;button&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>If the page won&#x2019;t load or the button doesn&#x2019;t exist/isn&#x2019;t clickable, the test will fail.</p>
+<p>As with other unit testing libraries and tools, you&#x2019;ll be writing assertions for the page that is visited in Cypress. Cypress has a great reference for which words you can use to make assertions and what the correct syntax should be: <a href="https://docs.cypress.io/guides/references/assertions.html#BDD-Assertions" target="_blank">https://docs.cypress.io/guides/references/assertions.html#BDD-Assertions</a></p>
+<p>Note: One thing I thought was weird is the syntax for &#x2018;should&#x2019;, example for should vs. should not:</p>
+<pre class="language-"><code class="lang-javascript">cy<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">&apos;li.selected&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">should</span><span class="token punctuation">(</span><span class="token string">&apos;have.length&apos;</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span>
+cy<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">&apos;form&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">&apos;input&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">should</span><span class="token punctuation">(</span><span class="token string">&apos;not.have.class&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;disabled&apos;</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Code/text example with Cypress:</p>
+<pre class="language-"><code class="lang-javascript"><span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">&apos;My website form&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&apos;Enrolls the user when they fill out the form&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    cy<span class="token punctuation">.</span><span class="token function">visit</span><span class="token punctuation">(</span><span class="token string">&apos;/form.html&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// Fill out the enrollment form</span>
+    <span class="token comment">// The form consists of an email input and a checkbox to agree to the terms and conditions</span>
+    cy<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">&apos;#email&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">type</span><span class="token punctuation">(</span><span class="token string">&apos;myemail@test.co&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    cy<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">&apos;#email-agree&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// Submit the form</span>
+    cy<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">&apos;.submit&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">should</span><span class="token punctuation">(</span><span class="token string">&apos;not.be.disabled&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    cy<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">&apos;.submit&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// In this case, enrolling shows a success message</span>
+    cy<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">&apos;.alert--success&apos;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">should</span><span class="token punctuation">(</span><span class="token string">&apos;be.visible&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="vue-test-utils">vue-test-utils</h2>
+<p>Things they don&#x2019;t tell you in the documentation:</p>
+<ul>
+<li>HTML templates aren&#x2019;t supported (as of June 19, 2018)</li>
+<li>Have to test components, no way to test mounted Vue instance</li>
+</ul>
+<p>Coming soon!</p>
+<h2 id="tools-for-testing-react-jest-chai-enzyme">Tools for testing React (Jest, Chai, Enzyme)</h2>
+<p><strong>Note: this section is exploratory so far (working in <a href="https://codesandbox.io/" target="_blank">Code Sandbox</a> - which I believe uses create-react-app) and I haven&#x2019;t implemented it on a project.</strong></p>
+<h3 id="jest">Jest</h3>
+<p>Jest is a popular tool for testing JavaScript (not React-specific, but v popular for React). According to jestjs.io, &#x201C;One of Jest&apos;s philosophies is to provide an integrated &quot;zero-configuration&quot; experience&#x201D;</p>
+<p>There&#x2019;s a whole section in the documentation for testing react apps: <a href="https://jestjs.io/docs/en/tutorial-react" target="_blank">https://jestjs.io/docs/en/tutorial-react</a></p>
+<p>Create-react-app ships with Jest out of the box</p>
+<h2 id="chai">Chai</h2>
+<p>In examples I&#x2019;ve seen, Chai is often used to help make writing assertions easier (from the docs: Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.) So, although this is not Jest and certainly not React-specific, I did find it was easy to use with that setup.</p>
+<h2 id="enzyme">Enzyme</h2>
+<p>Enzyme allows you to shallow mount, mount, and render a React component when writing a unit test for the component</p>
+<p><a href="https://airbnb.io/enzyme/docs/api/" target="_blank">https://airbnb.io/enzyme/docs/api/</a> </p>
+<p>When importing and using Enzyme for testing components, the Enzyme adapter for React must also be imported</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">import</span> Adapter <span class="token keyword">from</span> <span class="token string">&quot;enzyme-adapter-react-16&quot;</span><span class="token punctuation">;</span>
+
+Enzyme<span class="token punctuation">.</span><span class="token function">configure</span><span class="token punctuation">(</span><span class="token punctuation">{</span> adapter<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Adapter</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Example of a React test (tests <code>App</code> component):</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> expect <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;chai&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Enzyme<span class="token punctuation">,</span> <span class="token punctuation">{</span> shallow<span class="token punctuation">,</span> mount <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;enzyme&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">&quot;../src/index&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Adapter <span class="token keyword">from</span> <span class="token string">&quot;enzyme-adapter-react-16&quot;</span><span class="token punctuation">;</span>
+
+Enzyme<span class="token punctuation">.</span><span class="token function">configure</span><span class="token punctuation">(</span><span class="token punctuation">{</span> adapter<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Adapter</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">&quot;&lt;App /&gt;&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&quot;renders a div&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> wrapper <span class="token operator">=</span> <span class="token function">shallow</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>App <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>wrapper<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">&quot;div&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span>length <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&quot;allows us to set props&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> wrapper <span class="token operator">=</span> <span class="token function">mount</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>App name<span class="token operator">=</span><span class="token string">&quot;Fred&quot;</span> <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>wrapper<span class="token punctuation">.</span><span class="token function">props</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">.</span>to<span class="token punctuation">.</span><span class="token function">equal</span><span class="token punctuation">(</span><span class="token string">&quot;Fred&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    wrapper<span class="token punctuation">.</span><span class="token function">setProps</span><span class="token punctuation">(</span><span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&quot;George&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>wrapper<span class="token punctuation">.</span><span class="token function">props</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">.</span>to<span class="token punctuation">.</span><span class="token function">equal</span><span class="token punctuation">(</span><span class="token string">&quot;George&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="react.html#managing-state" class="navigation navigation-prev " aria-label="Previous page: Managing State">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="vue.html" class="navigation navigation-next " aria-label="Next page: Vue">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Unit Testing","level":"1.2.6","depth":2,"next":{"title":"Vue","level":"1.2.7","depth":2,"path":"standards/front-end/vue.md","ref":"standards/front-end/vue.md","articles":[]},"previous":{"title":"Managing State","level":"1.2.5.5","depth":3,"anchor":"#managing-state","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#managing-state","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["github","edit-link","prism","-highlight"],"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/dynamit/code-standards/tree/master"},"github":{"url":"https://github.com/dynamit/code-standards/"},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"standards/front-end/testing.md","mtime":"2019-08-27T20:19:36.830Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-05T16:53:51.371Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

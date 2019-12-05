@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "arrow-body-style": 0,
+    "comma-dangle": ["error", "always-multiline"],
+    "max-len": 0,
+    "no-console": 0,
+    "quote-props": ["error", "consistent-as-needed"],
+  }
+}

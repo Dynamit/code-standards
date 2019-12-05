@@ -1,0 +1,814 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Accessibility · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="react.html" />
+    
+    
+    <link rel="prev" href="javascript.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Table of Contents</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Front-end
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="html.html">
+            
+                <a href="html.html">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="stylesheets.html">
+            
+                <a href="stylesheets.html">
+            
+                    
+                    Stylesheets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="javascript.html">
+            
+                <a href="javascript.html">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.4" data-path="accessibility.html">
+            
+                <a href="accessibility.html">
+            
+                    
+                    Accessibility
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="react.html">
+            
+                <a href="react.html">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="react.html">
+            
+                <a href="react.html#getting-started">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1.1" data-path="react.html">
+            
+                <a href="react.html#install-via-create-react-app">
+            
+                    
+                    Install via create-react-app
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.1.2" data-path="react.html">
+            
+                <a href="react.html#choosing-the-correct-version">
+            
+                    
+                    Choosing the correct version
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.2" data-path="react.html">
+            
+                <a href="react.html#code-formatting">
+            
+                    
+                    Code Formatting
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.2.1" data-path="react.html">
+            
+                <a href="react.html#prettier-and-eslint-configuration">
+            
+                    
+                    Prettier and ESLint Configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3" data-path="react.html">
+            
+                <a href="react.html#components">
+            
+                    
+                    Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.3.1" data-path="react.html">
+            
+                <a href="react.html#naming-components">
+            
+                    
+                    Naming Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3.2" data-path="react.html">
+            
+                <a href="react.html#functional-components">
+            
+                    
+                    Functional Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3.3" data-path="react.html">
+            
+                <a href="react.html#class-components">
+            
+                    
+                    Class Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.3.3.1" data-path="react.html">
+            
+                <a href="react.html#default-state-and-props">
+            
+                    
+                    Default State and Props
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3.3.2" data-path="react.html">
+            
+                <a href="react.html#destructure-in-your-render-method">
+            
+                    
+                    Destructure in your Render Method
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.4" data-path="react.html">
+            
+                <a href="react.html#routing">
+            
+                    
+                    Routing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.5" data-path="react.html">
+            
+                <a href="react.html#managing-state">
+            
+                    
+                    Managing State
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="testing.html">
+            
+                <a href="testing.html">
+            
+                    
+                    Unit Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="vue.html">
+            
+                <a href="vue.html">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="wordpress.html">
+            
+                <a href="wordpress.html">
+            
+                    
+                    WordPress
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="gulp.html">
+            
+                <a href="gulp.html">
+            
+                    
+                    Gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="webpack.html">
+            
+                <a href="webpack.html">
+            
+                    
+                    Webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../back-end/">
+            
+                <a href="../back-end/">
+            
+                    
+                    Back-end
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../back-end/php.html">
+            
+                <a href="../back-end/php.html">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../mobile/">
+            
+                <a href="../mobile/">
+            
+                    
+                    Mobile
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../mobile/java.html">
+            
+                <a href="../mobile/java.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../mobile/objc.html">
+            
+                <a href="../mobile/objc.html">
+            
+                    
+                    Objective-C
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Accessibility</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="accessibility">Accessibility</h1>
+<h2 id="visually-hide-text-but-allow-screen-readers-to-read">Visually Hide Text, But Allow Screen Readers to Read</h2>
+<pre class="language-"><code class="lang-css"><span class="token selector">.visually-hidden</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> -1px<span class="token punctuation">;</span>
+  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+  <span class="token property">clip-path</span><span class="token punctuation">:</span> <span class="token function">rect</span><span class="token punctuation">(</span>0,0,0,0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="links">Links</h2>
+<ul>
+<li>Avoid using ALL CAPS (even <code>text-transform: uppercase</code> can make it sound like a screen reader is yelling at you)</li>
+<li>All links need to have discernible text</li>
+<li><ul>
+<li>Use visually hidden spans to add additonal context</li>
+</ul>
+</li>
+</ul>
+<pre class="language-"><code class="lang-html"><span class="token comment">&lt;!-- not much context --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>tel:18885555555<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>1-888-555-5555<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- text is hidden visually, but screen reader can read it --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>tel:18885555555<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>visually-hidden<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>For more information on XYZ Corp. call<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span> 1-888-555-5555<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<ul>
+<li>Don&apos;t use URLs as link text. Link text should be discernible and help the user contextually.</li>
+<li>When a link will do something unexpected, announce that to the user</li>
+<li>Don&apos;t use <code>target=&quot;_blank&quot;</code> (confusing to the user, removes back button functionality)</li>
+<li>If <code>target=&quot;_blank&quot;</code> must be used, inform the user they will be taken away from the site</li>
+<li>Font icon / SVG links need to have, at the very least, complimentary text that explains the link</li>
+<li>For internal actions, use <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">&gt;</span></span></code></li>
+<li>For taking users away from the current page, use <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span><span class="token punctuation">&gt;</span></span></code></li>
+<li><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span><span class="token punctuation">&gt;</span></span></code> must always have an <code>href</code></li>
+<li>Don&apos;t bother using <a href="https://www.paciellogroup.com/blog/2012/01/html5-accessibility-chops-title-attribute-use-and-abuse/" target="_blank"><code>title</code></a></li>
+</ul>
+<h2 id="skip-links--bypass-blocks">Skip Links / Bypass Blocks</h2>
+<p>This can be wrapped in pretty much any way, but at its core, a bypass block looks like this:</p>
+<pre class="language-"><code class="lang-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#main-content<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>skip-nav-link button<span class="token punctuation">&quot;</span></span> <span class="token attr-name">data-skip-to-content</span><span class="token punctuation">&gt;</span></span>Skip to Content<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>/sitemap<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>skip-nav-link button<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Skip to Sitemap<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>with CSS the links are hidden until they have focus (this is just the example from donatos.com)</p>
+<pre class="language-"><code class="lang-css"><span class="token selector">.skip-nav-link, a.skip-nav-link</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> -300px<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+  <span class="token property">transition</span><span class="token punctuation">:</span> top .4s ease<span class="token punctuation">;</span>
+  <span class="token property">line-height</span><span class="token punctuation">:</span> 44px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.skip-nav-link:focus</span> <span class="token punctuation">{</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 46px<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> -3px<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+  <span class="token property">z-index</span><span class="token punctuation">:</span> 500<span class="token punctuation">;</span>
+  <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>In the above, when a user clicks &quot;Skip to Content&quot; they will be focused on the <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span><span class="token punctuation">&gt;</span></span></code> on the page (with <code>id=&quot;main-content&quot;</code>). This helps a user because they won&apos;t need to go through the full navigation each page refresh</p>
+<h2 id="visible-focus">Visible Focus</h2>
+<ul>
+<li><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/navigation-mechanisms-focus-visible.html" target="_blank">WCAG 2.4.7</a> - Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible. (Level AA)</li>
+<li>Never use <code>outline: none</code></li>
+<li>Can update the outline so it looks different than default, but a visible border must be displayed</li>
+<li>Common failure is using <code>blur()</code> to take off focus, instead focus on another item</li>
+<li>Give your elements <code>:focus</code> wherever you have <code>:hover</code> in your CSS</li>
+<li>Focus needs to be taken into account when using <code>.hover()</code></li>
+<li>Typical failures occur for dropdown navigation not shown when the user focuses on a the top level menu item</li>
+</ul>
+<h2 id="images">Images</h2>
+<ul>
+<li>Always have alt text of some sort</li>
+</ul>
+<pre class="language-"><code class="lang-html"><span class="token comment">&lt;!-- BAD: screen reader will attempt to read the src name --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>../images/big-ol-dog.png<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- GOOD: indicates the image is decorative and does not have text in the image --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>../..<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- GOOD: the image alt text will be read by the screen reader --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>This text should be descriptive/informative, but not repeat information that is already present<span class="token punctuation">&quot;</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>../..<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<ul>
+<li><code>alt</code> text should be kept under <a href="https://www.washington.edu/accessit/print.html?ID=1257" target="_blank">125 characters</a></li>
+<li>Items like charts or maps that represent a lot of information, <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>caption</span><span class="token punctuation">&gt;</span></span></code> or <code>longdesc</code> should be used</li>
+<li>GIFs should not have more than 3 flashes per second (higher rate could trigger siezures)</li>
+<li>If possible, don&apos;t play GIF until hovered over</li>
+<li>Never use the filename as alt text</li>
+<li>Images with text in them need alt text equal to the text on the image</li>
+</ul>
+<pre class="language-"><code class="lang-html"><span class="token comment">&lt;!-- src will be read and user has no idea what the coupon is for --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>../my-great-coupon.jpg<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- will read the alt text which reflects the text on the image --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>../my-great-coupon.jpg<span class="token punctuation">&quot;</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Buy one pizza get one free. Starts at $8.99<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<h2 id="headings">Headings</h2>
+<ul>
+<li><a href="http://adrianroselli.com/2013/12/the-truth-about-truth-about-multiple-h1.html" target="_blank">Use semantic markup and structure your page with one</a> <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span></code></li>
+<li>Think of your page as the table of contents</li>
+<li>Turn off styling to test if the visual heirarchy makes sense</li>
+<li>Screen readers can use headings as hot key points (see Voiceover <a href="http://etc.usf.edu/techease/4all/vision/how-do-i-use-webrotor-in-voiceover/" target="_blank">Web Rotor</a>)</li>
+</ul>
+<h2 id="color-contrast">Color Contrast</h2>
+<ul>
+<li>hex codes of 000 on FFF background is not the best for readability and can <a href="http://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes" target="_blank">cause eye strain</a></li>
+<li>Ratio of 4.5:1 must be met for regular text</li>
+<li>19px and bold is 3:1, 24px and basic color is 3:1</li>
+<li>Dyslexics do better with unique fonts (Comic Sans all characters are unique)</li>
+<li>Automated testing tools can&apos;t judge color contrast of text over an image</li>
+<li>Images with text in them need to have this contrast level and alt text equal to the text on the image</li>
+<li>[Testing color contrast] (<a href="http://jxnblk.com/colorable/demos/text/" target="_blank">http://jxnblk.com/colorable/demos/text/</a>)</li>
+</ul>
+<h2 id="tab-order">Tab Order</h2>
+<ul>
+<li><code>tabindex=&quot;0&quot;</code> and <code>tabindex=&quot;-1&quot;</code> are all that should ever be used</li>
+<li>Never use <code>tabindex=&quot;1+&quot;</code></li>
+<li>Seriously. Don&apos;t.</li>
+<li><code>tabindex=&quot;-1&quot;</code> removes the element from the default tab order but allows you to focus on it programatically</li>
+<li><code>tabindex=&quot;0&quot;</code> places the element in the default tab order</li>
+<li>Proposal is in to deprecate any tab index that is greater than 0</li>
+</ul>
+<h2 id="form-elements">Form Elements</h2>
+<ul>
+<li>All <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span><span class="token punctuation">&gt;</span></span></code> must have <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">&gt;</span></span></code> associated with them</li>
+<li>The <code>name</code> attribute should not match <code>id</code></li>
+<li>The <code>for</code> should link to an input <code>id</code></li>
+<li>When possible, wrap the <code>input</code> with the label itself<pre class="language-"><code class="lang-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>firstNameInput<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  First Name:
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>firstName<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>firstNameInput<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+</li>
+</ul>
+<h2 id="random-tidbits">Random Tidbits</h2>
+<ul>
+<li>Include a <code>lang=</code> attribute on the <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span></code> tag</li>
+<li>Don&apos;t use <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>user-scalable=no<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span></code>. Users must be able to zoom</li>
+<li>Take into account that users should be able to go to zoom in to 200% and have the site still work</li>
+</ul>
+<h2 id="further-reading">Further Reading</h2>
+<p>An excellent resource on accessibility for the web: <a href="http://ianmcburnie.github.io/mindpatterns/" target="_blank">eBay MIND Patterns</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="javascript.html" class="navigation navigation-prev " aria-label="Previous page: JavaScript">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="react.html" class="navigation navigation-next " aria-label="Next page: React">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Accessibility","level":"1.2.4","depth":2,"next":{"title":"React","level":"1.2.5","depth":2,"path":"standards/front-end/react.md","ref":"standards/front-end/react.md","articles":[{"title":"Getting Started","level":"1.2.5.1","depth":3,"anchor":"#getting-started","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#getting-started","articles":[{"title":"Install via create-react-app","level":"1.2.5.1.1","depth":4,"anchor":"#install-via-create-react-app","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#install-via-create-react-app","articles":[]},{"title":"Choosing the correct version","level":"1.2.5.1.2","depth":4,"anchor":"#choosing-the-correct-version","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#choosing-the-correct-version","articles":[]}]},{"title":"Code Formatting","level":"1.2.5.2","depth":3,"anchor":"#code-formatting","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#code-formatting","articles":[{"title":"Prettier and ESLint Configuration","level":"1.2.5.2.1","depth":4,"anchor":"#prettier-and-eslint-configuration","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#prettier-and-eslint-configuration","articles":[]}]},{"title":"Components","level":"1.2.5.3","depth":3,"anchor":"#components","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#components","articles":[{"title":"Naming Components","level":"1.2.5.3.1","depth":4,"anchor":"#naming-components","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#naming-components","articles":[]},{"title":"Functional Components","level":"1.2.5.3.2","depth":4,"anchor":"#functional-components","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#functional-components","articles":[]},{"title":"Class Components","level":"1.2.5.3.3","depth":4,"anchor":"#class-components","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#class-components","articles":[{"title":"Default State and Props","level":"1.2.5.3.3.1","depth":5,"anchor":"#default-state-and-props","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#default-state-and-props","articles":[]},{"title":"Destructure in your Render Method","level":"1.2.5.3.3.2","depth":5,"anchor":"#destructure-in-your-render-method","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#destructure-in-your-render-method","articles":[]}]}]},{"title":"Routing","level":"1.2.5.4","depth":3,"anchor":"#routing","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#routing","articles":[]},{"title":"Managing State","level":"1.2.5.5","depth":3,"anchor":"#managing-state","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#managing-state","articles":[]}]},"previous":{"title":"JavaScript","level":"1.2.3","depth":2,"path":"standards/front-end/javascript.md","ref":"standards/front-end/javascript.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["github","edit-link","prism","-highlight"],"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/dynamit/code-standards/tree/master"},"github":{"url":"https://github.com/dynamit/code-standards/"},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"standards/front-end/accessibility.md","mtime":"2018-10-29T15:10:47.808Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-05T16:53:51.371Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

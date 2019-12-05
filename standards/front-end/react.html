@@ -1,0 +1,876 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>React · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="react.html" />
+    
+    
+    <link rel="prev" href="accessibility.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Table of Contents</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Front-end
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="html.html">
+            
+                <a href="html.html">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="stylesheets.html">
+            
+                <a href="stylesheets.html">
+            
+                    
+                    Stylesheets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="javascript.html">
+            
+                <a href="javascript.html">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="accessibility.html">
+            
+                <a href="accessibility.html">
+            
+                    
+                    Accessibility
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.5" data-path="react.html">
+            
+                <a href="react.html">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="react.html">
+            
+                <a href="react.html#getting-started">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1.1" data-path="react.html">
+            
+                <a href="react.html#install-via-create-react-app">
+            
+                    
+                    Install via create-react-app
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.1.2" data-path="react.html">
+            
+                <a href="react.html#choosing-the-correct-version">
+            
+                    
+                    Choosing the correct version
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.2" data-path="react.html">
+            
+                <a href="react.html#code-formatting">
+            
+                    
+                    Code Formatting
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.2.1" data-path="react.html">
+            
+                <a href="react.html#prettier-and-eslint-configuration">
+            
+                    
+                    Prettier and ESLint Configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3" data-path="react.html">
+            
+                <a href="react.html#components">
+            
+                    
+                    Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.3.1" data-path="react.html">
+            
+                <a href="react.html#naming-components">
+            
+                    
+                    Naming Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3.2" data-path="react.html">
+            
+                <a href="react.html#functional-components">
+            
+                    
+                    Functional Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3.3" data-path="react.html">
+            
+                <a href="react.html#class-components">
+            
+                    
+                    Class Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.3.3.1" data-path="react.html">
+            
+                <a href="react.html#default-state-and-props">
+            
+                    
+                    Default State and Props
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3.3.2" data-path="react.html">
+            
+                <a href="react.html#destructure-in-your-render-method">
+            
+                    
+                    Destructure in your Render Method
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.4" data-path="react.html">
+            
+                <a href="react.html#routing">
+            
+                    
+                    Routing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.5" data-path="react.html">
+            
+                <a href="react.html#managing-state">
+            
+                    
+                    Managing State
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="testing.html">
+            
+                <a href="testing.html">
+            
+                    
+                    Unit Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="vue.html">
+            
+                <a href="vue.html">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="wordpress.html">
+            
+                <a href="wordpress.html">
+            
+                    
+                    WordPress
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="gulp.html">
+            
+                <a href="gulp.html">
+            
+                    
+                    Gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="webpack.html">
+            
+                <a href="webpack.html">
+            
+                    
+                    Webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../back-end/">
+            
+                <a href="../back-end/">
+            
+                    
+                    Back-end
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../back-end/php.html">
+            
+                <a href="../back-end/php.html">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../mobile/">
+            
+                <a href="../mobile/">
+            
+                    
+                    Mobile
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../mobile/java.html">
+            
+                <a href="../mobile/java.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../mobile/objc.html">
+            
+                <a href="../mobile/objc.html">
+            
+                    
+                    Objective-C
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >React</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="react-guidelines">React Guidelines</h1>
+<p>Writing a single-page React.js application can have it&apos;s challenges if a good set of best practices and guidelines are not followed.</p>
+<p>This document tries to detail the best practices that have worked on our teams and projects in the past, using React as the main client-side javascript framework to build rich, interactive single-page applications that can scale and evolve most easily.</p>
+<p><em>Note: This guide assumes you&apos;re building a client-rendered single page application (SPA). If you&apos;re looking to use React on the back-end, in a server-rendered environment, we&apos;d recommend using <a href="https://nextjs.org/" target="_blank">Next.js</a>, but details about that implementation are not complete in this guide, although there will be some overlap, and many guidelines do apply.</em></p>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="install-via-create-react-app">Install via Create React App</h3>
+<p>Installation of React is preferred to be done through <a href="https://github.com/facebook/create-react-app" target="_blank">Create React App</a>. The <a href="https://github.com/facebook/create-react-app#whats-included" target="_blank">benefits</a> of create-react-app are numerous, and it is the fastest way to get started working in a new project.</p>
+<h3 id="choosing-the-correct-version">Choosing the correct version</h3>
+<p>It&apos;s important to choose the version of React fits the needs of the project the best. Typically, this is the latest stable <a href="https://reactjs.org/versions/" target="_blank">version</a>. You will rarely start a project that isn&apos;t using the latest stable version of React at the time.</p>
+<p>When choosing modules that enhance React&apos;s core functionality, it&apos;s important to ensure they are written in a way that works with the version of React you chose.</p>
+<p>To see if a module supports the version of React you&apos;re using, look for a <code>peerDependencies</code> entry in the project&apos;s <code>package.json</code>.  For help reading <code>package.json</code>, <a href="https://docs.npmjs.com/getting-started/semantic-versioning#semver-for-consumers" target="_blank">see this document on semver version</a> and how npm uses it.</p>
+<p>The latest stable version of React as of this writing is React version <a href="https://reactjs.org/versions/" target="_blank">16.6.0</a>.</p>
+<h2 id="code-formatting">Code Formatting</h2>
+<p>Having consistent code formatting and style is essential on projects or teams of one or more developers. It can help to reduce cognitive load when switching contexts and switching between projects.</p>
+<p>We reach for <a href="https://prettier.io/" target="_blank">Prettier</a> and <a href="https://eslint.org/" target="_blank">ESLint</a> to ensure things like line length, variable naming conventions, and other general syntax rules are followed, and use available code editor <a href="#step-4--install-extensions">extensions</a>.</p>
+<p><em>Note: Create React App already comes with <code>eslint</code> configured. It does not, however, (at the time of writing) come with configuration for <code>prettier</code>.</em></p>
+<h3 id="prettier-and-eslint-configuration">Prettier and ESLint Configuration</h3>
+<p><em>Source: <a href="https://medium.com/technical-credit/using-prettier-with-vs-code-and-create-react-app-67c2449b9d08" target="_blank">Using Prettier with VS Code and Create React App</a></em></p>
+<h4 id="step-1-install-prettier-and-eslint-plugin">Step 1: Install Prettier and ESLint Plugin</h4>
+<pre class="language-"><code>yarn add --dev --exact prettier
+yarn add --dev eslint-plugin-prettier
+</code></pre><h4 id="step-2-create-the-prettier-and-eslint-configuration-files">Step 2: Create the Prettier and ESLint Configuration files</h4>
+<p>Create a <code>.eslintrc</code> file at the root of your project and paste these contents:</p>
+<pre class="language-"><code>{
+  &quot;extends&quot;: &quot;react-app&quot;,
+  &quot;plugins&quot;: [&quot;prettier&quot;],
+  &quot;rules&quot;: {
+    &quot;prettier/prettier&quot;: &quot;error&quot;
+  }
+}
+</code></pre><p>If you are not happy with the default Prettier configuration, then create a <code>.prettierrc</code> file in the root of your project with any <a href="https://prettier.io/docs/en/options.html" target="_blank">options</a> you&apos;d like:</p>
+<pre class="language-"><code>{
+  &quot;singleQuote&quot;: true,
+  &quot;trailingComma&quot;: &quot;es5&quot;
+}
+</code></pre><h4 id="step-3-install-extensions">Step 3: Install extensions</h4>
+<p>Your editor likely has extension or plugins for ESLint and Prettier. To make the best of these tools, install the extensions so you can take advantage of auto-code formatting, syntax highlights, etc.</p>
+<ul>
+<li>Atom<ul>
+<li><a href="https://atom.io/packages/linter-eslint" target="_blank">ESLint</a> / <a href="https://atom.io/packages/prettier-atom" target="_blank">Prettier</a></li>
+</ul>
+</li>
+<li>VSCode<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" target="_blank">ESLint</a> / <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank">Prettier</a></li>
+</ul>
+</li>
+<li>Webstorm<ul>
+<li><a href="https://www.jetbrains.com/help/webstorm/eslint.html" target="_blank">ESLint</a> / <a href="https://prettier.io/docs/en/webstorm.html" target="_blank">Prettier</a></li>
+</ul>
+</li>
+</ul>
+<p>Each editor&apos;s extension for Prettier and ESlint will work a little bit differently.</p>
+<p>If you&apos;re using VSCode, you can simply right click on any issues and click &quot;Fix this prettier/prettier problem&quot; or click &quot;Fix all auto-fixable problems&quot; (if the option appears).</p>
+<h4 id="step-4-formatting-via-the-command-line-optional">Step 4: Formatting via the Command Line (optional)</h4>
+<p>Using Prettier is most easily done directly through your code editor using one of the above extensions, however it&apos;s also possible to use Prettier via the Command Line interface.</p>
+<pre class="language-"><code>npx prettier --write src/**/*.js
+</code></pre><p>The above command will read in any Javascript file in a <code>src</code> directory and overwrite its contents after being formatted through Prettier.</p>
+<h5 id="add-a-pre-commit-hook-for-prettier">Add a Pre-Commit Hook for Prettier</h5>
+<p><em>Note: This is unnecessary if you&apos;re already using <code>precommit-hook-eslint</code> since we configured eslint to use Prettier.</em></p>
+<p>It&apos;s possible to run the prettier formatting pre-commit to ensure no files get committed without following Prettier rules:</p>
+<pre class="language-"><code>yarn add --dev pretty-quick husky
+</code></pre><p>And add the following entry to your package.json:</p>
+<pre class="language-"><code>&quot;husky&quot;: {
+  &quot;hooks&quot;: {
+    &quot;pre-commit&quot;: &quot;pretty-quick --staged&quot;
+  }
+}
+</code></pre><h2 id="components">Components</h2>
+<p>In a React application, Components are the first-class citizens that make your app work.</p>
+<h3 id="naming-components">Naming Components</h3>
+<p>Components should be named with an <code>U</code>ppercase letter to begin, and simple names should be preferred over complex names.</p>
+<h3 id="functional-components">Functional Components</h3>
+<p>Use a stateless functional component to author components that don&apos;t need to take advantage of the <a href="https://reactjs.org/docs/react-component.html#the-component-lifecycle" target="_blank">React component lifecycle methods</a> and don&apos;t need to hold local state. In other words, if all the component needs to render is a set of <em>pre-determined</em> data, then a function is all your need.</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">&apos;react&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Greeting</span> <span class="token operator">=</span> props <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token operator">&lt;</span>h1<span class="token operator">&gt;</span>Hello<span class="token punctuation">,</span> <span class="token punctuation">{</span>props<span class="token punctuation">.</span>name<span class="token punctuation">}</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">&gt;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Greeting<span class="token punctuation">;</span>
+</code></pre>
+<p><em>Note: Function components will always re-render, even if no new props were received. If you&apos;re using <code>React ^16.6</code>, you can use the <a href="https://reactjs.org/blog/2018/10/23/react-v-16-6.html#reactmemo" target="_blank">memo</a> function to help performance.</em></p>
+<h4 id="proptypes-for-components">PropTypes for Components</h4>
+<p>All components, whether stateless or stateful, should implement <code>PropTypes</code> definitions when they are able to receive props.</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">&apos;react&apos;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> PropTypes <span class="token keyword">from</span> <span class="token string">&apos;prop-types&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">Greeting</span> <span class="token operator">=</span> props <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token operator">&lt;</span>h1<span class="token operator">&gt;</span>Hello<span class="token punctuation">,</span> <span class="token punctuation">{</span>props<span class="token punctuation">.</span>name<span class="token punctuation">}</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">&gt;</span>
+<span class="token punctuation">}</span>
+
+Greeting<span class="token punctuation">.</span>propTypes <span class="token operator">=</span> <span class="token punctuation">{</span>
+  name<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>string<span class="token punctuation">.</span>isRequired
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Greeting<span class="token punctuation">;</span>
+</code></pre>
+<p>This can be very helpful in debugging.</p>
+<h4 id="naming-functional-components">Naming Functional Components</h4>
+<p>Prefer to name the component as simple as possible when creating a functional component. For example, a <code>Button</code>, which is usually a candidate for a functional component over a class component, should be named <code>Button</code> instead of <code>ButtonComponent</code>.</p>
+<h3 id="class-components">Class Components</h3>
+<p>A class component can take advantage of the lifecycle methods and local state that React&apos;s core Component class provides. Choose this type of component when you need a component to hold it&apos;s own state and/or use lifecycle hooks.</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;react&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">GreetingComponent</span> <span class="token punctuation">{</span>
+  state <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token punctuation">:</span> <span class="token string">&apos;Nobody&apos;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&apos;Matt&apos;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">&lt;</span>h1<span class="token operator">&gt;</span>Hello<span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>name<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">&gt;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> GreetingComponent<span class="token punctuation">;</span>
+</code></pre>
+<p>The above component renders first <code>Hello, Nobody</code> then immediately re-renders itself and reads <code>Hello, Matt</code>.</p>
+<h4 id="default-state-and-props">Default State and Props</h4>
+<p>ES6 classes have the ability to define methods and properties on class instances. Make use of this when setting up a component by adding <code>state</code> and <code>defaultProps</code> when you need them, as opposed to setting up state or props in a <code>constructor</code>. This will lead to more readability and fewer bugs.</p>
+<pre class="language-"><code class="lang-javascript"><span class="token comment">// Bad</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">GreetingComponent</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>props<span class="token punctuation">.</span>name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">&apos;Nobody&apos;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Good</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">GreetingComponent</span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> defaultProps<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    name<span class="token punctuation">:</span> <span class="token string">&apos;Nobody&apos;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Bad</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">GreetingComponent</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>state <span class="token operator">=</span> <span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&apos;Nobody&apos;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Good</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">GreetingComponent</span> <span class="token punctuation">{</span>
+  state <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token punctuation">:</span> <span class="token string">&apos;Nobody&apos;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h4 id="destructure-in-your-render-method">Destructure in your Render Method</h4>
+<p>The <code>render</code> method of a React component can become large in some cases, and can have a lot of dependencies.</p>
+<p>When data for your component comes from <code>state</code> or <code>props</code>, be sure to <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment" target="_blank">destructure</a> your data before using it in JSX.</p>
+<p>The following examples are simple, but most real-world scenarios will involve getting data from complex objects, so destructuring is best.</p>
+<pre class="language-"><code class="lang-javascript"><span class="token comment">// Bad</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">GreetingComponent</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>Here is a sentence that depends on <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>name<span class="token punctuation">}</span> <span class="token punctuation">(</span>a user&apos;s name<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Good</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">GreetingComponent</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> name <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">;</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>Here is a sentence that depends on <span class="token punctuation">{</span>name<span class="token punctuation">}</span> <span class="token punctuation">(</span>a user&apos;s name<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="routing">Routing</h2>
+<p>Routing should be achieved using <a href="https://reacttraining.com/react-router/web/guides/quick-start" target="_blank">React Router</a> using the <a href="https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom" target="_blank">react-router-dom</a> package.</p>
+<p>At the time of writing, Create React App does not come with React Router installed, so you must add it manually.</p>
+<pre class="language-"><code>yarn add --dev react-router-dom
+</code></pre><h3 id="scroll-to-top">Scroll to top</h3>
+<p>As a best practice for a SPA, ensure users are not stuck at the bottom of a page when navigating Back from a page. To achieve this, see the official docs on <a href="https://reacttraining.com/react-router/web/guides/scroll-restoration" target="_blank">scroll restoration</a> and implement a <code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ScrollToTop</span> <span class="token punctuation">/&gt;</span></span></code> component in your project.</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> BrowserRouter <span class="token keyword">as</span> Router <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">ScrollToTop</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  <span class="token function">componentDidUpdate</span><span class="token punctuation">(</span>prevProps<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>location <span class="token operator">!==</span> prevProps<span class="token punctuation">.</span>location<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      window<span class="token punctuation">.</span><span class="token function">scrollTo</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>children<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">withRouter</span><span class="token punctuation">(</span>ScrollToTop<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Then render it at the top of your app, but below Router</span>
+<span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>Router<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>ScrollToTop<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>App<span class="token operator">/</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>ScrollToTop<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>Router<span class="token operator">&gt;</span>
+<span class="token punctuation">)</span>
+</code></pre>
+<h2 id="managing-state">Managing State</h2>
+<p>Familiarize yourself with the multiple ways of managing state in React.</p>
+<p><a href="https://itnext.io/react-state-management-patterns-908325dbb8f3" target="_blank">Click here</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="accessibility.html" class="navigation navigation-prev " aria-label="Previous page: Accessibility">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="react.html#getting-started" class="navigation navigation-next " aria-label="Next page: Getting Started">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"React","level":"1.2.5","depth":2,"next":{"title":"Getting Started","level":"1.2.5.1","depth":3,"anchor":"#getting-started","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#getting-started","articles":[{"title":"Install via create-react-app","level":"1.2.5.1.1","depth":4,"anchor":"#install-via-create-react-app","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#install-via-create-react-app","articles":[]},{"title":"Choosing the correct version","level":"1.2.5.1.2","depth":4,"anchor":"#choosing-the-correct-version","path":"standards/front-end/react.md","ref":"standards/front-end/react.md#choosing-the-correct-version","articles":[]}]},"previous":{"title":"Accessibility","level":"1.2.4","depth":2,"path":"standards/front-end/accessibility.md","ref":"standards/front-end/accessibility.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["github","edit-link","prism","-highlight"],"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/dynamit/code-standards/tree/master"},"github":{"url":"https://github.com/dynamit/code-standards/"},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"standards/front-end/react.md","mtime":"2019-08-27T20:19:36.830Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-05T16:53:51.371Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
